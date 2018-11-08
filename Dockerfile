@@ -1,5 +1,5 @@
 FROM alpine:latest
-
+ENV VER=4.2
 RUN mkdir -m 777 /v2ray
 
 ADD entrypoint.sh /entrypoint.sh
